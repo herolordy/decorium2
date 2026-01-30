@@ -1,0 +1,528 @@
+:root {
+  --wood: #6b4f2d;
+  --cream: #f6f2ec;
+  --dark: #222;
+  --accent: #c89b63;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  color: var(--dark);
+  line-height: 1.6;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background: white;
+  border-bottom: 1px solid #eee;
+  padding: 16px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  margin-left: 24px;
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--dark);
+}
+
+nav a:hover {
+  color: var(--wood);
+}
+
+header {
+  background: var(--cream);
+  padding: 80px 20px;
+  text-align: center;
+}
+
+section {
+  padding: 80px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 24px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background: var(--wood);
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Contact Decorium</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<nav>
+  <strong>Decorium</strong>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
+
+<header>
+  <h1>Let’s Talk Wood & Décor 📞</h1>
+  <p>Questions? Orders? Plywood love letters?</p>
+</header>
+
+<section style="text-align:center;">
+  <a class="btn" href="https://wa.me/91XXXXXXXXXX" target="_blank">
+    Order on WhatsApp
+  </a>
+</section>
+
+<footer>
+  © 2026 Decorium
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Decorium | Home</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<nav>
+  <strong>Decorium</strong>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
+
+<header>
+  <h1>Welcome to Decorium 🏡</h1>
+  <p>Where décor dazzles and hardware holds strong.</p>
+  <img src="images/out-0.png" style="max-width:500px; margin-top:30px;">
+</header>
+
+<section>
+  <h2>Why Decorium?</h2>
+  <div class="grid">
+    <div class="card"><div class="card-content">💪 Plywood so strong it flexes back.</div></div>
+    <div class="card"><div class="card-content">🔩 Hardware heroes holding it all together.</div></div>
+    <div class="card"><div class="card-content">✨ Décor so stylish neighbours notice.</div></div>
+  </div>
+</section>
+
+<footer>
+  © 2026 Decorium. Built with wood & wit.
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Decorium | Products</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<nav>
+  <strong>Decorium</strong>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
+
+<header>
+  <h1>Our Product Lineup 🪵</h1>
+  <p>Plywood legends, décor delights & hardware heroes.</p>
+</header>
+
+<section>
+  <div class="grid">
+
+    <div class="card">
+      <img src="images/plywood.webp">
+      <div class="card-content">
+        <h3>Magnus Plywood</h3>
+        <p>The Hulk of plywoods.</p>
+        <a class="btn" href="contact.html">Order</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/empire.webp">
+      <div class="card-content">
+        <h3>Empire Plywood</h3>
+        <p>Fit for royal furniture.</p>
+        <a class="btn" href="contact.html">Order</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/ply.webp">
+      <div class="card-content">
+        <h3>Zred Ply</h3>
+        <p>Red hot value.</p>
+        <a class="btn" href="contact.html">Order</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  © 2026 Decorium
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>About Decorium</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<nav>
+  <strong>Decorium</strong>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
+
+<header>
+  <h1>About Decorium ❤️</h1>
+  <p>Where style meets sawdust.</p>
+</header>
+
+<section>
+  <p>
+    Decorium is your friendly neighbourhood home décor & hardware store.
+    We believe plywood can be powerful, screws can be heroic,
+    and shopping can actually be fun.
+  </p>
+</section>
+
+<footer>
+  Built with heart & hardwood.
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Decorium | Home Décor & Hardware</title>
+
+<style>
+:root {
+  --wood: #6b4f2d;
+  --cream: #f6f2ec;
+  --dark: #222;
+  --accent: #c89b63;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  color: var(--dark);
+  line-height: 1.6;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background: white;
+  border-bottom: 1px solid #eee;
+  padding: 16px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+nav a {
+  margin-left: 24px;
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--dark);
+}
+
+nav a:hover {
+  color: var(--wood);
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background: var(--wood);
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+header {
+  background: var(--cream);
+  padding: 80px 20px;
+  text-align: center;
+}
+
+header img {
+  max-width: 500px;
+  width: 100%;
+  margin: 30px auto;
+  border-radius: 12px;
+}
+
+section {
+  padding: 80px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 24px;
+}
+
+.price {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.stats {
+  background: var(--wood);
+  color: white;
+  text-align: center;
+}
+
+.stats div {
+  font-size: 1.2rem;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <strong>Decorium</strong>
+  <div>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header id="home">
+  <h1>Welcome to Decorium 🏡</h1>
+  <p>
+    Where your dream home starts (with a wink and a hammer).
+    Décor that dazzles. Hardware that holds up.
+  </p>
+
+  <img src="images/out-0.png" alt="Decorium Home">
+
+  <a href="#products" class="btn">Browse Products</a>
+</header>
+
+<!-- STATS -->
+<section class="stats">
+  <div class="grid">
+    <div>🛋️ 20,000+ sofas supported</div>
+    <div>🔩 1,000,000+ screws not lost (yet)</div>
+    <div>🌲 99.99% splinter-free happiness</div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products">
+  <h2>Our Plywood Superstars</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <img src="images/plywood.webp" alt="Magnus Plywood">
+      <div class="card-content">
+        <h3>Magnus Plywood 💪</h3>
+        <p>The Hulk of plywoods. Built for bold furniture and brave builders.</p>
+        <div class="price">Starting ₹70</div>
+        <a class="btn" href="#contact">Order Now</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/empire.webp" alt="Empire Plywood">
+      <div class="card-content">
+        <h3>Empire Plywood 👑</h3>
+        <p>Royal treatment for shelves, cabinets, and everything fancy.</p>
+        <div class="price">Starting ₹75</div>
+        <a class="btn" href="#contact">Order Now</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/ply.webp" alt="Zred Ply">
+      <div class="card-content">
+        <h3>Zred Ply 🔥</h3>
+        <p>Red-hot value for cool interiors. DIY friendly.</p>
+        <div class="price">Starting ₹65</div>
+        <a class="btn" href="#contact">Order Now</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- DECOR & HARDWARE -->
+<section>
+  <h2>Décor, Laminates & Hardware</h2>
+  <div class="grid">
+
+    <div class="card">
+      <img src="images/deco.webp" alt="Decor Materials">
+      <div class="card-content">
+        <h3>Decorative Materials ✨</h3>
+        <p>Laminates, veneers, finishes — because plywood likes to dress up.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/ply.webp" alt="Hardware">
+      <div class="card-content">
+        <h3>Hardware Heroes 🔩</h3>
+        <p>Handles, screws, fittings — the tiny legends holding it all together.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT / ORDER -->
+<section id="contact">
+  <h2>Place an Order or Say Hello 👋</h2>
+  <p style="text-align:center; max-width:700px; margin:auto;">
+    Have a shopping list? A question? Or just want to talk plywood?
+    Reach out — we reply faster than you can say “birch ply”.
+  </p>
+
+  <div style="text-align:center; margin-top:30px;">
+    <a class="btn" href="https://wa.me/91XXXXXXXXXX" target="_blank">
+      Order on WhatsApp
+    </a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Decorium. Built with wood, wit & a lot of screws.</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Decorium | Products</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<nav>
+  <strong>Decorium</strong>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
+
+<header>
+  <h1>Our Product Lineup 🪵</h1>
+  <p>Plywood legends, décor delights & hardware heroes.</p>
+</header>
+
+<section>
+  <div class="grid">
+
+    <div class="card">
+      <img src="images/plywood.webp">
+      <div class="card-content">
+        <h3>Magnus Plywood</h3>
+        <p>The Hulk of plywoods.</p>
+        <a class="btn" href="contact.html">Order</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/empire.webp">
+      <div class="card-content">
+        <h3>Empire Plywood</h3>
+        <p>Fit for royal furniture.</p>
+        <a class="btn" href="contact.html">Order</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/ply.webp">
+      <div class="card-content">
+        <h3>Zred Ply</h3>
+        <p>Red hot value.</p>
+        <a class="btn" href="contact.html">Order</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  © 2026 Decorium
+</footer>
+
+</body>
+</html>

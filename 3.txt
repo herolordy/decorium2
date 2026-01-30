@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Decorium | Home</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<nav>
+  <strong>Decorium</strong>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
+
+<header>
+  <h1>Welcome to Decorium 🏡</h1>
+  <p>Where décor dazzles and hardware holds strong.</p>
+  <img src="images/out-0.png" style="max-width:500px; margin-top:30px;">
+</header>
+
+<section>
+  <h2>Why Decorium?</h2>
+  <div class="grid">
+    <div class="card"><div class="card-content">💪 Plywood so strong it flexes back.</div></div>
+    <div class="card"><div class="card-content">🔩 Hardware heroes holding it all together.</div></div>
+    <div class="card"><div class="card-content">✨ Décor so stylish neighbours notice.</div></div>
+  </div>
+</section>
+
+<footer>
+  © 2026 Decorium. Built with wood & wit.
+</footer>
+
+</body>
+</html>
